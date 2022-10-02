@@ -55,3 +55,10 @@ export const TimeLineData = [
   { year: 2021, text: 'Created some projects and shared with the world', },
   { year: 2022, text: 'Working as a freelancer', },
 ];
+export const ReviewsData = [
+  { image: '/images/8.png', text: 'BookStore Website', },
+  { image: '/images/11.png', text: 'Website', },
+  { image: '/images/9.png', text: 'Website', },
+  { image: '/images/10.png', text: 'Website', },
+  { image: '/images/7.png', text: 'Bug Fixes', }
+];
