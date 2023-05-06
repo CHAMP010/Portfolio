@@ -1,8 +1,11 @@
 import React from 'react';
+import Spline from '@splinetool/react-spline';
 
-const BackgroundAnimation = () => (
+
+const BackgroundThreeD = () => (
   <div>
-    <svg
+    <Spline scene="https://prod.spline.design/jx0dB1Ft-qtBkpBE/scene.splinecode" />
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,8 +361,8 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+    </svg> */}
   </div>
 );
 
-export default BackgroundAnimation;
+export default BackgroundThreeD;
